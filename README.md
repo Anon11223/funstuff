@@ -11,3 +11,7 @@
 
 This is the video that I will try to blend the above image with
 ![GIFrecord_2019-07-28_161058](https://user-images.githubusercontent.com/36055506/62014409-a039f480-b155-11e9-8e86-facccdbeb5b7.gif)
+
+Okay, so here you go...this is what it looks like after blending the static image to the video
+
+![GIFrecord_2019-07-28_161304](https://user-images.githubusercontent.com/36055506/62014438-dd9e8200-b155-11e9-827a-14bc7aecac6c.gif)

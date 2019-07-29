@@ -7,7 +7,7 @@
 <p>By varying α from 0→1, you can perform a cool transition between one image to another.</p>
 <p>Here I took an image below to blend it with a video below . First image is given a weight of 0.5 and video is given 0.5 <a class="el" </p>
 
-![0](https://user-images.githubusercontent.com/36055506/62014385-40dbe480-b155-11e9-9995-2e68e1e63811.jpg)
+![0](https://user-images.githubusercontent.com/36055506/62014385-40dbe480-b155-11e9-9995-2e68e1e63811.jpg) 
 
 This is the video that I will try to blend the above image with
 ![GIFrecord_2019-07-28_161058](https://user-images.githubusercontent.com/36055506/62014409-a039f480-b155-11e9-8e86-facccdbeb5b7.gif)
@@ -15,3 +15,13 @@ This is the video that I will try to blend the above image with
 Okay, so here you go...this is what it looks like after blending the static image to the video
 
 ![GIFrecord_2019-07-28_161304](https://user-images.githubusercontent.com/36055506/62014438-dd9e8200-b155-11e9-827a-14bc7aecac6c.gif)
+
+<h2>Color based Object Tracking</h2>
+<p>Here's how to extract and track Blue,Yellow and Red colors in a video:</p>
+<ul>
+<li>Take each frame of the video</li>
+<li>Convert from BGR to HSV color-space</li>
+<li>We threshold the HSV image for a range of blue and yellow and red color(s)</li>
+<li>Now extract the indiviual blue object alone, we then repeat the same for yellow and red.</li>
+</ul>
+

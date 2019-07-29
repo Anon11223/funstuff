@@ -1,6 +1,6 @@
 # funstuff
 
-<h2>Image Blending </h2>
+<h2>Image + Video Blending </h2>
 <p>This is also image addition, but different weights are given to images so that it gives a feeling of blending or transparency. Images are added as per the equation below:</p>
 <p> g(x)=(1−α)f0(x)+αf1(x) </p>
 

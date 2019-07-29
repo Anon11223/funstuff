@@ -25,3 +25,20 @@ Okay, so here you go...this is what it looks like after blending the static imag
 <li>Now extract the indiviual blue object alone, we then repeat the same for yellow and red.</li>
 </ul>
 
+**Main Video**
+
+![main_video](https://user-images.githubusercontent.com/36055506/62015464-af726f80-b160-11e9-8e9d-87d5c4e9cda5.gif) 
+
+**Exacting Blue from the video**
+
+![blue](https://user-images.githubusercontent.com/36055506/62015467-b6997d80-b160-11e9-90ba-62e4fb559c1d.gif)
+
+**Exacting Yellow from the video**
+
+![yellow](https://user-images.githubusercontent.com/36055506/62015471-c1eca900-b160-11e9-9762-f026dd33a50c.gif)
+
+**Exacting Red from the video**
+
+![red](https://user-images.githubusercontent.com/36055506/62015474-c87b2080-b160-11e9-8a17-f2080965d2ed.gif)
+
+

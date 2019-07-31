@@ -5,20 +5,31 @@
 <p>Morphological transformations are some simple operations based on the image shape. It is normally performed on binary images. It needs two inputs, one is our original image, second one is called <b>structuring element</b> or <b>kernel</b> which decides the nature of operation. Two basic morphological operators are Erosion and Dilation. Then its variant forms like Opening, Closing, Gradient etc also comes into play. We will see them one-by-one with help of following image:</p>
 <h3> Original </h3>
 
+![camera](https://user-images.githubusercontent.com/36055506/62178871-61e03900-b2ff-11e9-97d6-f7673ae4e1ab.gif)
+
  <h3>Erosion</h3>
  
-  <h3>Dilation</h3>
-  
-  <h3>Opening</h3>
+![erosion](https://user-images.githubusercontent.com/36055506/62178883-6a387400-b2ff-11e9-8be2-eda473fedc75.gif)
+
+<h3>Dilation</h3>
+
+![dilation](https://user-images.githubusercontent.com/36055506/62178890-6dcbfb00-b2ff-11e9-9d02-08c83636da2a.gif)
+
+ <h3>Opening</h3>
+ 
+ ![opening](https://user-images.githubusercontent.com/36055506/62178896-73294580-b2ff-11e9-956f-25c95ff5213d.gif)
   
   <h3> Gradient</h3>
   
+![gradient](https://user-images.githubusercontent.com/36055506/62178898-76243600-b2ff-11e9-8971-702b3733cc64.gif)
+  
   <h3>Tophat</h3>
+ 
+![top-hat](https://user-images.githubusercontent.com/36055506/62178904-81776180-b2ff-11e9-832f-0a2eec804e79.gif)
   
   <h3>Blackhat</h3>
-
-
-
+ 
+ ![blackhat](https://user-images.githubusercontent.com/36055506/62178913-89370600-b2ff-11e9-894f-72e5cbc41b49.gif)
 
 <h2>Image + Video Blending </h2>
 <p>This is also image addition, but different weights are given to images so that it gives a feeling of blending or transparency. Images are added as per the equation below:</p>

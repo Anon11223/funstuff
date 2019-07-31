@@ -2,7 +2,8 @@
 
 <h2>Real time Morphological Transformation</h2>
 <h2>Theory </h2>
-<p>Morphological transformations are some simple operations based on the image shape. It is normally performed on binary images. It needs two inputs, one is our original image, second one is called <b>structuring element</b> or <b>kernel</b> which decides the nature of operation. Two basic morphological operators are Erosion and Dilation. Then its variant forms like Opening, Closing, Gradient etc also comes into play. We will see them one-by-one with help of following image:</p>
+<p>Morphological transformations are some simple operations based on the image shape. It is normally performed on binary images. It needs two inputs, one is our original image, second one is called <b>structuring element</b> or <b>kernel</b> which decides the nature of operation. Two basic morphological operators are Erosion and Dilation. Then its variant forms like Opening, Closing, Gradient etc also comes into play. We will see them one-by-one and what it looks like when you track face and eyes real time:</p>
+
 <h3> Original </h3>
 
 ![camera](https://user-images.githubusercontent.com/36055506/62178871-61e03900-b2ff-11e9-97d6-f7673ae4e1ab.gif)

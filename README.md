@@ -1,5 +1,25 @@
 # funstuff
 
+<h2>Real time Morphological Transformation</h2>
+<h2>Theory </h2>
+<p>Morphological transformations are some simple operations based on the image shape. It is normally performed on binary images. It needs two inputs, one is our original image, second one is called <b>structuring element</b> or <b>kernel</b> which decides the nature of operation. Two basic morphological operators are Erosion and Dilation. Then its variant forms like Opening, Closing, Gradient etc also comes into play. We will see them one-by-one with help of following image:</p>
+<h3> Original </h3>
+
+ <h3>Erosion</h3>
+ 
+  <h3>Dilation</h3>
+  
+  <h3>Opening</h3>
+  
+  <h3> Gradient</h3>
+  
+  <h3>Tophat</h3>
+  
+  <h3>Blackhat</h3>
+
+
+
+
 <h2>Image + Video Blending </h2>
 <p>This is also image addition, but different weights are given to images so that it gives a feeling of blending or transparency. Images are added as per the equation below:</p>
 <p> g(x)=(1−α)f0(x)+αf1(x) </p>

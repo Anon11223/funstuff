@@ -1,4 +1,12 @@
 # funstuff
+<h2>Face Morphing using Delaunay Triangulation</h2>
+ <h2>Theory</h2>
+ <p>There are many algorithms and libraries to calculate the Delaunay Triangulation, given a set of points. I used the inbuilt function named Subdiv2D, of OpenCV, which does the triangulation and returns the set of co-ordinates of the triangles</p>
+<h2>Affine Transformation<h2>
+<p>We now select a triangle T from the image M, its corresponding triangle V in the intermediate image I, and calculate the affine transform (described below) that converts the triangle T to V. We use the inbuilt function getAffineTransform, in OpenCV, to obtain the transformation matrix. Similarly, we calculate the transformation matrix of the corresponding triangle W in the image N to the triangle V. Now we apply the transformations so obtained to all the triangles of both the images M and N, to obtain warped images M’ and N’ . We next calculate the intermediate image I by using the same equation as the naïve algorithm: 
+
+ I (x, y) = (1 - α) M’ (x, y) + α N’ (x, y)
+</p>
 
 <h2>Real time Morphological Transformation</h2>
 <h2>Theory </h2>

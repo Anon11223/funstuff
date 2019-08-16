@@ -1,12 +1,17 @@
 # funstuff
+
 <h2>Face Morphing using Delaunay Triangulation</h2>
  <h2>Theory</h2>
  <p>There are many algorithms and libraries to calculate the Delaunay Triangulation, given a set of points. I used the inbuilt function named Subdiv2D, of OpenCV, which does the triangulation and returns the set of co-ordinates of the triangles</p>
-<h2>Affine Transformation<h2>
-<p>We now select a triangle T from the image M, its corresponding triangle V in the intermediate image I, and calculate the affine transform (described below) that converts the triangle T to V. We use the inbuilt function getAffineTransform, in OpenCV, to obtain the transformation matrix. Similarly, we calculate the transformation matrix of the corresponding triangle W in the image N to the triangle V. Now we apply the transformations so obtained to all the triangles of both the images M and N, to obtain warped images M’ and N’ . We next calculate the intermediate image I by using the same equation as the naïve algorithm: 
+<h3>Affine Transformation<h3>
+<p>Next step is to select a triangle T from the image M, its corresponding triangle V in the intermediate image I, and calculate the affine transform (described below) that converts the triangle T to V. I used the inbuilt function getAffineTransform, in OpenCV, to obtain the transformation matrix. Similarly, calculate the transformation matrix of the corresponding triangle W in the image N to the triangle V. Now apply the transformations so obtained to all the triangles of both the images M and N, to obtain warped images M’ and N’ . Next calculate the intermediate image I by using the same equation as the naïve algorithm: 
 
  I (x, y) = (1 - α) M’ (x, y) + α N’ (x, y)
 </p>
+
+Image1             |  Morphed  | Image 2
+:-------------------------:|:-------------------------:|:-------------------------:
+![img_1](https://user-images.githubusercontent.com/36055506/63135774-e7145080-bf83-11e9-949d-714f8366687c.png)  | ![Morphed Face](https://user-images.githubusercontent.com/36055506/63135779-eaa7d780-bf83-11e9-92ca-13224bfd72f0.png) | ![img_2](https://user-images.githubusercontent.com/36055506/63135781-ed0a3180-bf83-11e9-9e38-ba5c33993077.png)
 
 <h2>Real time Morphological Transformation</h2>
 <h2>Theory </h2>
